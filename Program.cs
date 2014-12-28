@@ -10,6 +10,7 @@ namespace GitConsole
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Dag allemaal");
         }
     }
 }
