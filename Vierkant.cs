@@ -6,16 +6,18 @@ using System.Threading.Tasks;
 
 namespace GitConsole
 {
-    class Vierkant
+    class Vierkant:Figuur
     {
         public int Zijde { get; private set; }
         public Vierkant(int zijde)
         {
             this.Zijde = zijde;
         }
-        public int Omtrek
+
+        public override int Omtrek
         {
             get { return 4 * Zijde; }
+
         }
     }
 }
