@@ -16,7 +16,7 @@ namespace GitConsole
             Vierkant v = new Vierkant(zijde);
             Console.WriteLine("De omtrek van het vierkant is {0:d}", v.Omtrek  );
             Console.WriteLine("De oppervlakte van het vierkant is {0:d}", v.Oppervlakte);
-
+            Console.WriteLine("Daarmee weet je alles over deze figuur");
         }
     }
 }
