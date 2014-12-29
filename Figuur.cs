@@ -9,5 +9,6 @@ namespace GitConsole
     abstract class Figuur
     {
         public abstract int Omtrek { get; }
+        public abstract int Oppervlakte { get; }
     }
 }

@@ -17,7 +17,11 @@ namespace GitConsole
         public override int Omtrek
         {
             get { return 4 * Zijde; }
+        }
 
+        public override int Oppervlakte
+        {
+            get { return Zijde * Zijde; }
         }
     }
 }
