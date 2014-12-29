@@ -11,6 +11,11 @@ namespace GitConsole
         static void Main(string[] args)
         {
             Console.WriteLine("Dag allemaal");
+            Console.Write("Geef de zijde van het vierkant:");
+            int zijde = Int32.Parse(Console.ReadLine());
+            Vierkant v = new Vierkant(zijde);
+            Console.WriteLine("De omtrek van het vierkant is {0:d}", v.Omtrek  );
+
         }
     }
 }
