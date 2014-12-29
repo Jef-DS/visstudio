@@ -14,12 +14,12 @@ namespace GitConsole
             this.Zijde = zijde;
         }
 
-        public override int Omtrek
+        public override double Omtrek
         {
             get { return 4 * Zijde; }
         }
 
-        public override int Oppervlakte
+        public override double Oppervlakte
         {
             get { return Zijde * Zijde; }
         }
